@@ -1,0 +1,1517 @@
+Torqievo — Website Design System
+
+Status: Final
+Brand: Torqievo
+Design Direction: Premium / Modern Technology
+Primary Visual Identity: Soft Lavender + Warm Ivory Cream
+Design Philosophy: Premium, modern, trustworthy, technical, clean, approachable
+Implementation Rule: This document is authoritative. Do not introduce alternative colors, typography, gradients, shadows, spacing systems, or visual styles unless explicitly required by the project.
+
+⸻
+
+1. Brand Overview
+
+Torqievo  is a modern technology company focused on:
+
+* Web application development
+* Mobile application development
+* Application rebuilding and modernization
+* Technical support
+* Technical consulting
+* End-to-end software engineering solutions
+
+The website must communicate:
+
+* Technical expertise
+* Reliability
+* Modern engineering
+* Premium quality
+* Innovation
+* Simplicity
+* Professionalism
+* Trust
+
+The website must not feel:
+
+* Corporate and outdated
+* Overly playful
+* Neon/futuristic
+* Cyberpunk
+* Excessively purple
+* Generic SaaS
+* Visually cluttered
+* Excessively animated
+
+⸻
+
+2. Primary Design Direction
+
+The selected design direction is:
+
+Premium
+
+The visual identity combines:
+
+* Soft technology lavender
+* Warm ivory cream
+* Deep charcoal
+* Light lavender surfaces
+* Controlled violet accents
+* Large clean typography
+* Generous whitespace
+* Subtle shadows
+* Rounded but professional components
+
+The overall appearance should feel similar to a premium technology consultancy/product studio, rather than a generic software development agency.
+
+⸻
+
+3. Color System
+
+3.1 Core Brand Colors
+
+These colors are FIXED.
+
+Do not replace them with alternatives.
+
+Token	Name	HEX	Usage
+brand-primary	Soft Tech Lavender	#8B7CF6	Primary brand color
+brand-secondary	Warm Ivory Cream	#F8F6F0	Main background
+brand-dark	Deep Charcoal	#171522	Primary text / dark sections
+brand-light	Lavender Mist	#E9E6FF	Light accents / surfaces
+brand-accent	Controlled Violet	#6C5CE7	Hover / emphasis / stronger CTA
+
+Primary
+
+#8B7CF6
+
+Use for:
+
+* Primary buttons
+* Logo accent
+* Links
+* Active navigation
+* Important highlights
+* Icons
+* Selected states
+* Small decorative elements
+
+Primary must be the dominant brand accent.
+
+⸻
+
+Secondary
+
+#F8F6F0
+
+Use as the primary website background.
+
+It should replace pure white as the default page background.
+
+Do not use bright white as the dominant website background.
+
+⸻
+
+Dark
+
+#171522
+
+Use for:
+
+* Main headings
+* Body text where high contrast is required
+* Footer
+* Dark sections
+* Navigation text
+* Strong UI elements
+
+⸻
+
+Lavender Mist
+
+#E9E6FF
+
+Use for:
+
+* Feature backgrounds
+* Secondary cards
+* Highlight areas
+* Subtle badges
+* Icon containers
+* Selected states
+* Decorative shapes
+
+⸻
+
+Controlled Violet
+
+#6C5CE7
+
+Use sparingly for:
+
+* Button hover states
+* Active states
+* Strong CTA emphasis
+* Gradient endpoints
+* Important interactive elements
+
+Do not use #6C5CE7 as the primary page background.
+
+⸻
+
+4. Supporting Neutral Colors
+
+The following neutral colors are also fixed.
+
+Token	HEX	Usage
+text-primary	#171522	Main headings
+text-secondary	#555260	Body text
+text-muted	#777481	Supporting information
+text-disabled	#A9A6B0	Disabled text
+surface-white	#FFFFFF	Cards / elevated surfaces
+border-light	#E5E1EA	Standard borders
+border-lavender	#DCD6FF	Brand-related borders
+surface-muted	#F1EFE9	Secondary neutral surfaces
+surface-lavender	#E9E6FF	Lavender surfaces
+
+⸻
+
+5. Color Usage Ratio
+
+The website should approximately follow this visual distribution:
+
+60%  Warm Ivory / Neutral backgrounds
+25%  White / elevated surfaces
+10%  Lavender
+5%   Dark / strong accent elements
+
+The exact percentage can vary by section, but lavender must remain an accent, not the entire visual identity.
+
+Do not create a website where most sections are purple.
+
+⸻
+
+6. Background System
+
+Primary Background
+
+#F8F6F0
+
+Use for:
+
+* Main page
+* Hero background
+* About sections
+* Service sections
+* General page sections
+
+⸻
+
+White Surface
+
+#FFFFFF
+
+Use for:
+
+* Cards
+* Forms
+* Navigation containers where appropriate
+* Elevated content
+* Modal/dialog surfaces
+
+White is an elevation layer above the ivory background.
+
+⸻
+
+Lavender Surface
+
+#E9E6FF
+
+Use for:
+
+* Highlight cards
+* Feature sections
+* Small feature blocks
+* Decorative areas
+* Selected UI states
+
+Do not use it for large amounts of body text.
+
+⸻
+
+Dark Surface
+
+#171522
+
+Use for:
+
+* Footer
+* CTA sections
+* Technology showcase sections
+* Strong contrast sections
+
+Dark sections should be visually limited.
+
+⸻
+
+7. Gradient Rules
+
+Gradients are allowed but must be subtle.
+
+Primary Brand Gradient
+
+linear-gradient(135deg, #8B7CF6 0%, #6C5CE7 100%)
+
+Use for:
+
+* Primary CTA buttons
+* Hero decorative elements
+* Selected brand graphics
+* Occasional visual highlights
+
+Do not use this gradient everywhere.
+
+⸻
+
+Soft Lavender Gradient
+
+linear-gradient(135deg, #E9E6FF 0%, #F8F6F0 100%)
+
+Use for:
+
+* Hero backgrounds
+* Feature backgrounds
+* Large decorative surfaces
+
+The gradient must remain extremely subtle.
+
+⸻
+
+Gradient Restrictions
+
+Do NOT introduce:
+
+* Rainbow gradients
+* Neon gradients
+* Blue-to-purple gradients
+* Pink-to-purple gradients
+* Green gradients
+* Orange gradients
+* Dark cyberpunk gradients
+
+The Torqievo visual identity is based on lavender + warm ivory.
+
+⸻
+
+8. Typography
+
+The typography should be modern, clean, and professional.
+
+Primary Font
+
+Use:
+
+Inter
+
+Fallback:
+
+system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif
+
+Do not introduce multiple font families.
+
+The website should use one primary font family consistently.
+
+⸻
+
+9. Typography Scale
+
+Display / Hero Heading
+
+Desktop: 64px
+Tablet: 48px
+Mobile: 38px
+Weight: 700
+Line Height: 1.05
+Letter Spacing: -0.04em
+Color: #171522
+
+Hero headings should be visually dominant.
+
+⸻
+
+H1
+
+Desktop: 52px
+Tablet: 44px
+Mobile: 36px
+Weight: 700
+Line Height: 1.1
+Letter Spacing: -0.035em
+Color: #171522
+
+⸻
+
+H2
+
+Desktop: 40px
+Tablet: 34px
+Mobile: 30px
+Weight: 700
+Line Height: 1.15
+Letter Spacing: -0.025em
+Color: #171522
+
+⸻
+
+H3
+
+Desktop: 28px
+Mobile: 24px
+Weight: 650
+Line Height: 1.2
+Color: #171522
+
+⸻
+
+H4
+
+Desktop: 22px
+Mobile: 20px
+Weight: 600
+Line Height: 1.3
+Color: #171522
+
+⸻
+
+Body Large
+
+18px
+Line Height: 1.7
+Weight: 400
+Color: #555260
+
+⸻
+
+Body
+
+16px
+Line Height: 1.65
+Weight: 400
+Color: #555260
+
+⸻
+
+Small Text
+
+14px
+Line Height: 1.5
+Color: #777481
+
+⸻
+
+Caption
+
+12px
+Line Height: 1.4
+Weight: 500
+Color: #777481
+
+⸻
+
+10. Text Color Rules
+
+Primary Text
+
+#171522
+
+Use for:
+
+* H1
+* H2
+* H3
+* H4
+* Navigation
+* Important labels
+
+Secondary Text
+
+#555260
+
+Use for:
+
+* Paragraphs
+* Descriptions
+* Supporting content
+
+Muted Text
+
+#777481
+
+Use for:
+
+* Metadata
+* Captions
+* Secondary information
+
+Brand Text
+
+#6C5CE7
+
+Use sparingly to highlight important words.
+
+Example:
+
+Build Better
+Digital Experiences
+
+The selected highlighted phrase can use #6C5CE7.
+
+⸻
+
+11. Logo Rules
+
+Brand name:
+
+Torqievo
+
+The spelling must always be:
+
+T-O-R-Q-I-E-V-O
+
+Do not write:
+
+* Torqivo
+* Torquivoo
+* Torqievo
+* Torqivo Technologies
+
+unless explicitly instructed.
+
+Logo Color
+
+Default:
+
+Torqievo → #171522
+
+Brand accent:
+
+Logo accent/detail → #8B7CF6
+
+The logo should primarily be dark with a controlled lavender accent.
+
+Do not create a fully purple logo unless explicitly requested.
+
+⸻
+
+12. Navigation
+
+The navigation should be:
+
+* Minimal
+* Clean
+* Spacious
+* Professional
+
+Navigation Background
+
+Default:
+
+#F8F6F0
+
+If using a floating navigation:
+
+#FFFFFF
+
+with:
+
+border: #E5E1EA
+
+and subtle shadow.
+
+Navigation Text
+
+#171522
+
+Active Navigation Item
+
+#6C5CE7
+
+Navigation Hover
+
+#6C5CE7
+
+Do not use underlines as the primary hover treatment.
+
+⸻
+
+13. Buttons
+
+Primary Button
+
+Background:
+
+#8B7CF6
+
+Text:
+
+#FFFFFF
+
+Hover:
+
+#6C5CE7
+
+Border:
+
+none
+
+Border Radius:
+
+12px
+
+Font:
+
+15px
+Weight: 600
+
+Padding:
+
+14px 22px
+
+⸻
+
+Secondary Button
+
+Background:
+
+transparent
+
+Border:
+
+1px solid #DCD6FF
+
+Text:
+
+#171522
+
+Hover:
+
+#E9E6FF
+
+Border Radius:
+
+12px
+
+⸻
+
+Dark Button
+
+Background:
+
+#171522
+
+Text:
+
+#FFFFFF
+
+Hover:
+
+#2B2838
+
+Use only where a dark CTA is appropriate.
+
+⸻
+
+14. Button Rules
+
+Buttons must:
+
+* Have clear labels
+* Have sufficient padding
+* Have rounded corners
+* Use a maximum of one primary CTA per visual group
+* Use consistent hover states
+
+Avoid:
+
+* Excessive pill-shaped buttons
+* Tiny buttons
+* Multiple competing primary buttons
+* Neon effects
+* Strong glow effects
+
+⸻
+
+15. Cards
+
+Cards should feel premium and lightweight.
+
+Standard Card
+
+Background:
+
+#FFFFFF
+
+Border:
+
+1px solid #E5E1EA
+
+Border radius:
+
+18px
+
+Shadow:
+
+0 8px 30px rgba(23, 21, 34, 0.06)
+
+⸻
+
+Hover Card
+
+Border:
+
+#DCD6FF
+
+Shadow:
+
+0 14px 40px rgba(23, 21, 34, 0.10)
+
+Transform:
+
+translateY(-4px)
+
+Transition:
+
+200ms ease
+
+Do not make cards aggressively animated.
+
+⸻
+
+16. Border System
+
+Standard Border
+
+#E5E1EA
+
+Brand Border
+
+#DCD6FF
+
+Dark Section Border
+
+rgba(255,255,255,0.12)
+
+Border width:
+
+1px
+
+Avoid thick borders.
+
+Do not use black borders.
+
+⸻
+
+17. Border Radius
+
+Use the following radius system:
+
+Component	Radius
+Small badge	8px
+Input	10px
+Button	12px
+Card	18px
+Large card	24px
+Hero container	28px
+Modal	24px
+
+Avoid excessive rounded/pill styling.
+
+⸻
+
+18. Shadows
+
+Shadows must remain soft.
+
+Small
+
+0 4px 16px rgba(23, 21, 34, 0.05)
+
+Medium
+
+0 8px 30px rgba(23, 21, 34, 0.06)
+
+Large
+
+0 16px 50px rgba(23, 21, 34, 0.10)
+
+Never use:
+
+* Black heavy shadows
+* Colored glowing shadows
+* Neon glows
+
+⸻
+
+19. Inputs and Forms
+
+Input
+
+Background:
+
+#FFFFFF
+
+Border:
+
+#E5E1EA
+
+Text:
+
+#171522
+
+Placeholder:
+
+#A9A6B0
+
+Radius:
+
+10px
+
+Focus border:
+
+#8B7CF6
+
+Focus ring:
+
+0 0 0 3px rgba(139, 124, 246, 0.15)
+
+⸻
+
+20. Badges
+
+Badges should be small and subtle.
+
+Brand Badge
+
+Background:
+
+#E9E6FF
+
+Text:
+
+#6C5CE7
+
+Border:
+
+none
+
+Radius:
+
+8px
+
+Font:
+
+12px
+Weight: 600
+
+Use uppercase sparingly.
+
+Example:
+
+TECHNOLOGY PARTNER
+
+⸻
+
+21. Hero Section
+
+The hero section is one of the most important parts of the website.
+
+Background
+
+#F8F6F0
+
+Optional subtle gradient:
+
+linear-gradient(135deg, #F8F6F0 0%, #E9E6FF 100%)
+
+The gradient must remain very subtle.
+
+Hero Heading
+
+Color:
+
+#171522
+
+Highlighted words:
+
+#6C5CE7
+
+Hero Description
+
+#555260
+
+Primary CTA
+
+#8B7CF6
+
+Secondary CTA
+
+Transparent with:
+
+1px solid #DCD6FF
+
+⸻
+
+22. Hero Visual Style
+
+Hero graphics should use:
+
+* White
+* Lavender
+* Soft violet
+* Ivory
+* Dark charcoal in very small amounts
+
+Preferred visual concepts:
+
+* Application interfaces
+* Mobile devices
+* Abstract software architecture
+* Floating UI panels
+* Digital product interfaces
+* Geometric technology elements
+
+Avoid:
+
+* Generic coding stock photos
+* Excessive robots
+* Cyberpunk imagery
+* Neon circuits
+* Hacker imagery
+* Overly futuristic 3D objects
+
+⸻
+
+23. Service Sections
+
+Services should be represented using clean cards.
+
+Recommended services:
+
+1. Web Application Development
+2. Mobile Application Development
+3. Application Rebuild & Modernization
+4. Technical Support
+5. Software Engineering
+6. Technical Consulting
+
+Service Card
+
+Background:
+
+#FFFFFF
+
+Icon container:
+
+#E9E6FF
+
+Icon:
+
+#6C5CE7
+
+Heading:
+
+#171522
+
+Description:
+
+#555260
+
+⸻
+
+24. Section Background Alternation
+
+Do not make every section the same background.
+
+Recommended sequence:
+
+Hero
+→ #F8F6F0
+Services
+→ #FFFFFF
+About / Approach
+→ #F8F6F0
+Technology
+→ #E9E6FF
+Projects / Portfolio
+→ #FFFFFF
+CTA
+→ #171522
+Footer
+→ #171522
+
+This creates visual hierarchy without introducing additional colors.
+
+⸻
+
+25. Dark CTA Section
+
+The main CTA section may use:
+
+#171522
+
+Heading:
+
+#FFFFFF
+
+Description:
+
+#D8D5DF
+
+Primary CTA:
+
+#8B7CF6
+
+Hover:
+
+#6C5CE7
+
+Decorative lavender:
+
+#8B7CF6
+
+Do not use excessive decoration.
+
+⸻
+
+26. Footer
+
+Footer background:
+
+#171522
+
+Primary footer text:
+
+#FFFFFF
+
+Secondary footer text:
+
+#B9B5C2
+
+Links:
+
+#DCD6FF
+
+Link hover:
+
+#8B7CF6
+
+Borders:
+
+rgba(255,255,255,0.12)
+
+The footer should feel premium and understated.
+
+⸻
+
+27. Icons
+
+Preferred icon style:
+
+* Outline icons
+* Minimal line icons
+* Consistent stroke width
+* Rounded geometry
+
+Default icon:
+
+#6C5CE7
+
+Icon container:
+
+#E9E6FF
+
+Do not mix multiple icon styles.
+
+Do not use colorful icons.
+
+⸻
+
+28. Links
+
+Default:
+
+#6C5CE7
+
+Hover:
+
+#8B7CF6
+
+Links should not automatically be underlined unless accessibility or content context requires it.
+
+⸻
+
+29. Accessibility
+
+Text must maintain strong contrast against backgrounds.
+
+Never place:
+
+#777481
+
+on:
+
+#E9E6FF
+
+for important text if the resulting contrast is insufficient.
+
+Never use lavender as body text on ivory when readability is poor.
+
+Primary body text should remain:
+
+#555260
+
+or:
+
+#171522
+
+⸻
+
+30. Responsive Design
+
+The visual identity must remain consistent across:
+
+* Desktop
+* Laptop
+* Tablet
+* Mobile
+
+Do not create separate color themes for mobile.
+
+The same color tokens must be used across all breakpoints.
+
+⸻
+
+31. Spacing System
+
+Use an 8px-based spacing system.
+
+Allowed spacing values:
+
+4px
+8px
+12px
+16px
+24px
+32px
+40px
+48px
+64px
+80px
+96px
+120px
+
+Avoid arbitrary spacing values unless technically necessary.
+
+⸻
+
+32. Section Spacing
+
+Desktop:
+
+96px – 120px vertical
+
+Tablet:
+
+72px – 96px vertical
+
+Mobile:
+
+56px – 72px vertical
+
+Sections should have generous whitespace.
+
+⸻
+
+33. Container Width
+
+Maximum content width:
+
+1200px
+
+Preferred:
+
+max-width: 1200px;
+margin: 0 auto;
+
+Mobile horizontal padding:
+
+20px
+
+Tablet:
+
+32px
+
+Desktop:
+
+40px
+
+⸻
+
+34. Animations
+
+Animations should be subtle and premium.
+
+Default duration:
+
+200ms
+
+Large transitions:
+
+300ms
+
+Preferred easing:
+
+ease
+
+Allowed:
+
+* Fade in
+* Small translate
+* Card lift
+* Button transition
+* Navigation transition
+* Subtle image movement
+
+Avoid:
+
+* Excessive parallax
+* Bouncing elements
+* Continuous spinning
+* Excessive particle effects
+* Neon glow animations
+* Large page transitions
+* Distracting animations
+
+⸻
+
+35. Hover States
+
+Interactive elements should provide visual feedback.
+
+Primary button:
+
+#8B7CF6
+→ #6C5CE7
+
+Card:
+
+translateY(-4px)
+
+Links:
+
+#6C5CE7
+→ #8B7CF6
+
+Images:
+
+subtle scale(1.02)
+
+Avoid dramatic hover effects.
+
+⸻
+
+36. Technology / Stack Section
+
+Technology logos should NOT introduce uncontrolled brand colors into the overall design.
+
+Where possible:
+
+* Use monochrome logos
+* Use dark logos
+* Use muted logo treatments
+
+Technology cards:
+
+Background: #FFFFFF
+Border: #E5E1EA
+Icon: #6C5CE7
+
+If original technology logos must retain their official colors, they may do so, but the surrounding UI must remain within the Torqievo palette.
+
+⸻
+
+37. Portfolio / Project Cards
+
+Project cards should use:
+
+Background: #FFFFFF
+Border: #E5E1EA
+Radius: 18px
+
+Project category:
+
+#6C5CE7
+
+Project title:
+
+#171522
+
+Description:
+
+#555260
+
+Technology tags:
+
+Background: #E9E6FF
+Text: #6C5CE7
+
+⸻
+
+38. Error States
+
+Error:
+
+#B42318
+
+Error background:
+
+#FEF3F2
+
+Error border:
+
+#FECACA
+
+Do not replace error colors with lavender.
+
+Semantic states must remain recognizable.
+
+⸻
+
+39. Success States
+
+Success:
+
+#157347
+
+Success background:
+
+#ECFDF3
+
+Success border:
+
+#A7F3D0
+
+⸻
+
+40. Warning States
+
+Warning:
+
+#B54708
+
+Warning background:
+
+#FFFAEB
+
+Warning border:
+
+#FEDF89
+
+⸻
+
+41. Information States
+
+Information:
+
+#4F46A5
+
+Information background:
+
+#EEF2FF
+
+Information border:
+
+#C7D2FE
+
+⸻
+
+42. Design Do’s
+
+Always:
+
+* Use warm ivory as the primary background
+* Use lavender as the recognizable Torqievo accent
+* Use deep charcoal for important text
+* Use generous whitespace
+* Use subtle borders
+* Use soft shadows
+* Use consistent rounded corners
+* Keep layouts clean
+* Keep visual hierarchy strong
+* Maintain professional spacing
+* Keep animations subtle
+* Prioritize readability
+* Use consistent iconography
+
+⸻
+
+43. Design Don’ts
+
+Never:
+
+* Replace the brand palette with blue
+* Introduce random colors
+* Use neon purple
+* Use cyberpunk styling
+* Use excessive gradients
+* Use excessive glassmorphism
+* Use heavy black shadows
+* Use random border colors
+* Use multiple font families
+* Use random font sizes
+* Use overly rounded/pill-heavy UI
+* Use excessive animations
+* Make every section purple
+* Use pure white as the dominant page background
+* Create a completely different visual style for individual pages
+
+⸻
+
+44. Strict Color Policy
+
+The following colors are the official Torqievo UI palette:
+
+PRIMARY
+#8B7CF6
+SECONDARY / BACKGROUND
+#F8F6F0
+DARK
+#171522
+LIGHT ACCENT
+#E9E6FF
+ACCENT
+#6C5CE7
+TEXT SECONDARY
+#555260
+TEXT MUTED
+#777481
+WHITE SURFACE
+#FFFFFF
+BORDER
+#E5E1EA
+BRAND BORDER
+#DCD6FF
+
+If a new UI element requires a color, the implementation must first attempt to use one of the existing tokens.
+
+Do not create another arbitrary color simply because it looks visually appealing.
+
+⸻
+
+45. CSS Variables
+
+If the website uses CSS variables, define the design system approximately as follows:
+
+:root {
+  --color-primary: #8B7CF6;
+  --color-secondary: #F8F6F0;
+  --color-dark: #171522;
+  --color-light-accent: #E9E6FF;
+  --color-accent: #6C5CE7;
+  --color-text-primary: #171522;
+  --color-text-secondary: #555260;
+  --color-text-muted: #777481;
+  --color-text-disabled: #A9A6B0;
+  --color-surface-white: #FFFFFF;
+  --color-surface-muted: #F1EFE9;
+  --color-surface-lavender: #E9E6FF;
+  --color-border: #E5E1EA;
+  --color-border-lavender: #DCD6FF;
+  --color-error: #B42318;
+  --color-success: #157347;
+  --color-warning: #B54708;
+  --color-info: #4F46A5;
+  --radius-sm: 8px;
+  --radius-md: 12px;
+  --radius-lg: 18px;
+  --radius-xl: 24px;
+  --radius-2xl: 28px;
+  --shadow-sm: 0 4px 16px rgba(23, 21, 34, 0.05);
+  --shadow-md: 0 8px 30px rgba(23, 21, 34, 0.06);
+  --shadow-lg: 0 16px 50px rgba(23, 21, 34, 0.10);
+  --transition-fast: 200ms ease;
+  --transition-normal: 300ms ease;
+}
+
+⸻
+
+46. Final Implementation Rule
+
+This file is the single source of truth for the Torqievo website visual design.
+
+The implementing agent must NOT make independent visual decisions when this document already specifies the required behavior.
+
+If a component is not explicitly described:
+
+1. Use the existing TORQIEVO color tokens.
+2. Use Inter typography.
+3. Use the existing border-radius system.
+4. Use the existing shadow system.
+5. Use the existing spacing system.
+6. Follow the Premium design direction.
+7. Prefer simplicity and whitespace.
+8. Do not introduce new colors.
+9. Do not introduce new fonts.
+10. Do not introduce a competing visual style.
+
+When uncertain, the implementation should choose the simplest option that remains consistent with this design system.
+
+The final website should feel like one unified Torqievo product—not a collection of independently designed sections.
+
+⸻
+
+47. Brand Identity Summary
+
+BRAND
+Torqievo 
+DESIGN STYLE
+Premium Modern Technology
+PRIMARY
+#8B7CF6
+SECONDARY
+#F8F6F0
+DARK
+#171522
+LIGHT ACCENT
+#E9E6FF
+ACCENT
+#6C5CE7
+PRIMARY FONT
+Inter
+PRIMARY BACKGROUND
+#F8F6F0
+CARD BACKGROUND
+#FFFFFF
+PRIMARY TEXT
+#171522
+SECONDARY TEXT
+#555260
+BORDER
+#E5E1EA
+BRAND BORDER
+#DCD6FF
+PRIMARY BUTTON
+#8B7CF6
+PRIMARY BUTTON HOVER
+#6C5CE7
+DESIGN CHARACTER
+Premium
+Modern
+Technical
+Trustworthy
+Clean
+Approachable
+Minimal
+Professional
+
+TORQIEVO — Technology that moves ideas forward.
